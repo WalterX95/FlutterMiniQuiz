@@ -1,0 +1,38 @@
+[
+  {
+    "quiz": {
+      "id": 0,
+      "Domanda": "Qual è il primo presidente della Federazione Russa?",
+      "Risposte": [
+        { "text": "Vladimir Putin", "isCorrect": false },
+        { "text": "Boris Yeltsin", "isCorrect": true },
+        { "text": "Nikita Krusciov", "isCorrect": false },
+        { "text": "Margaret Thatcher", "isCorrect": false }
+      ]
+    }
+  },
+  {
+    "quiz": {
+      "id": 1,
+      "Domanda": "In che anno è avvenuto lo sbarco sulla Luna?",
+      "Risposte": [
+        { "text": "1965", "isCorrect": false },
+        { "text": "1969", "isCorrect": true },
+        { "text": "1971", "isCorrect": false },
+        { "text": "1959", "isCorrect": false }
+      ]
+    }
+  },
+  {
+    "quiz": {
+      "id": 2,
+      "Domanda": "Chi ha scritto 'La Divina Commedia'?",
+      "Risposte": [
+        { "text": "Dante Alighieri", "isCorrect": true },
+        { "text": "Giovanni Boccaccio", "isCorrect": false },
+        { "text": "Francesco Petrarca", "isCorrect": false },
+        { "text": "Ludovico Ariosto", "isCorrect": false }
+      ]
+    }
+  }
+]
