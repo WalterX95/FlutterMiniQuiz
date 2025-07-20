@@ -13,57 +13,18 @@ Un'applicazione **Flutter** semplice e intuitiva per la gestione di quiz a scelt
 ## 📂 Struttura del progetto
 
 /lib
+
 ├── main.dart # Entry point dell'app
+
 ├── nuovo_quiz.dart # Interfaccia utente e logica del quiz
+
 ├── quiz_model.dart # Modello dati per quiz e risposte
+
 /assets
 └── quiz.json # File contenente tutte le domande
 
-pgsql
-Copy
-Edit
 
-## 📄 Esempio JSON (`assets/quiz.json`)
 
-```json
-[
-  {
-    "quiz": {
-      "id": 0,
-      "Domanda": "Qual è il primo presidente della Federazione Russa?",
-      "Risposte": [
-        { "testo": "Vladimir Putin", "isCorrect": false },
-        { "testo": "Boris Yeltsin", "isCorrect": true },
-        { "testo": "Nikita Krusciov", "isCorrect": false },
-        { "testo": "Margaret Thatcher", "isCorrect": false }
-      ]
-    }
-  },
-  {
-    "quiz": {
-      "id": 1,
-      "Domanda": "In che anno è avvenuto lo sbarco sulla Luna?",
-      "Risposte": [
-        { "testo": "1965", "isCorrect": false },
-        { "testo": "1969", "isCorrect": true },
-        { "testo": "1971", "isCorrect": false },
-        { "testo": "1959", "isCorrect": false }
-      ]
-    }
-  },
-  {
-    "quiz": {
-      "id": 2,
-      "Domanda": "Chi ha scritto 'La Divina Commedia'?",
-      "Risposte": [
-        { "testo": "Dante Alighieri", "isCorrect": true },
-        { "testo": "Giovanni Boccaccio", "isCorrect": false },
-        { "testo": "Francesco Petrarca", "isCorrect": false },
-        { "testo": "Ludovico Ariosto", "isCorrect": false }
-      ]
-    }
-  }
-]
 
 🚀 Come avviare il progetto
 Clona il repository:
