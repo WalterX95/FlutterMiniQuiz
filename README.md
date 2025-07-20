@@ -64,14 +64,15 @@ Edit
     }
   }
 ]
+
 🚀 Come avviare il progetto
 Clona il repository:
 
 bash
 Copy
 Edit
-git clone https://github.com/tuo-username/flutter_quiz_app.git
-cd flutter_quiz_app
+git clone https://github.com/WalterX95/FlutterMiniQuiz
+cd FlutterMiniQuiz
 Installa le dipendenze:
 
 bash
@@ -84,7 +85,7 @@ bash
 Copy
 Edit
 flutter run
-Assicurati che il file quiz.json sia incluso correttamente nel file pubspec.yaml:
+Assicurati che il file quiz.json sia incluso nel file pubspec.yaml:
 
 yaml
 Copy
@@ -125,5 +126,3 @@ Android Studio / VS Code / qualsiasi IDE compatibile con Flutter
 Questo progetto è distribuito sotto licenza MIT. Consulta il file LICENSE per ulteriori dettagli.
 
 🧑‍💻 Creato con passione da Walter
-
-
